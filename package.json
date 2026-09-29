@@ -1,0 +1,43 @@
+{
+  "name": "@journey-to-code/open-directory-tree",
+  "version": "1.0.0",
+  "description": "Reads directory contents recursively into a JSON-friendly tree.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journey-to-code-org/open.directory-tree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/journey-to-code-org/open.directory-tree/issues"
+  },
+  "homepage": "https://github.com/journey-to-code-org/open.directory-tree#readme",
+  "keywords": [
+    "directory",
+    "tree",
+    "filesystem",
+    "recursive"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
